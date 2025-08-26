@@ -5,13 +5,13 @@ This mini Github workflow will grab your contribution graph and generate this in
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="example/dark.svg"
+    srcset="example/breakout-dark.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="example/light.svg"
+    srcset="example/breakout-light.svg"
   />
-  <img alt="Breakout Game" src="example/light.svg" />
+  <img alt="Breakout Game" src="example/breakout-light.svg" />
 </picture>
 
 ## 1. Copy the Workflow
