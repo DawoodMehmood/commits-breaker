@@ -64,13 +64,13 @@ jobs:
           git push
 ```
 
-That action will automatically fetch your contribution graph and regenerate the breakout game SVGs daily.
+This action will automatically fetch your contribution graph and regenerate the breakout game SVGs daily.
 
 ---
 
 ## 2. Update Your Profile README
 
-In the `README.md` of your profile repo, add this snippet:
+In the `README.md` of your profile repo (`github.com/<your-username>/<your-username>`), add this snippet:
 
 ```html
 <picture>
@@ -101,7 +101,7 @@ This way, your profile will show the light or dark breakout game depending on vi
 ## Run Instantly
 
 When you commit the workflow for the first time, you will see the output after 24 hours due to the set cron job.
-But you don’t need to wait 😃 — you can trigger it manually:
+But you don’t need to wait, you can trigger it manually:
 
 1. Go to your same profile repo (`github.com/<your-username>/<your-username>`).
 2. Click **Actions** tab.
