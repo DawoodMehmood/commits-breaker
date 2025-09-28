@@ -125,7 +125,7 @@ If you copy paste the exact workflow given above, it will run every 24 hrs due t
 ```yaml
 on:
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 0 * * *"
 ```
 
 If you want the game to be updated on your every commit then replace the above cron job with this:
